@@ -18,14 +18,14 @@ export class SwiperComponent implements OnInit, DoCheck, OnDestroy, OnChanges {
   public isAtLast: boolean;
   public isAtFirst: boolean;
 
-  private configDiff: any;
-  private childsDiff: number;
+  public configDiff: any;
+  public childsDiff: number;
 
-  private initialIndex: number;
+  public initialIndex: number;
 
-  private showButtons: boolean;
-  private showScrollbar: boolean;
-  private showPagination: boolean;
+  public showButtons: boolean;
+  public showScrollbar: boolean;
+  public showPagination: boolean;
 
   @HostBinding('hidden')
   @Input() hidden: boolean = false;

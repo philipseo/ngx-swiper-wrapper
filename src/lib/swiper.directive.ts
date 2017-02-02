@@ -12,7 +12,7 @@ import { SwiperConfig, SwiperConfigInterface, SwiperEvents } from './swiper.inte
 export class SwiperDirective implements OnInit, DoCheck, OnDestroy, OnChanges {
   public swiper: any;
 
-  private configDiff: any;
+  public configDiff: any;
 
   @Input() disabled: boolean = false;
 
